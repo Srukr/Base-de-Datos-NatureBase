@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/logoconfondo" />
+
+    <LinearLayout
+        android:layout_width="298dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/fondoet"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Catalogue"
+            android:text="@string/catalogue" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Maps"
+            android:text="@string/maps" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="About"
+            android:text="@string/about" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginBottom="39dp"
+        android:onClick="QueryTester"
+        android:text="@string/querytester"
+        android:visibility="gone" />
+
+</RelativeLayout>
