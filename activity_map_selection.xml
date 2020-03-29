@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".MapSelection">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="GoBack"
+        android:text="@string/goback" />
+
+    <LinearLayout
+        android:layout_width="298dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="139dp"
+        android:background="@drawable/fondoet"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mainNursery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="MapFunctionality"
+            android:text="@string/mainnursery" />
+
+        <Button
+            android:id="@+id/secondNursery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="MapFunctionality"
+            android:text="@string/secondnursery" />
+
+        <Button
+            android:id="@+id/farNursery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="MapFunctionality"
+            android:text="@string/farnursery" />
+    </LinearLayout>
+</RelativeLayout>
