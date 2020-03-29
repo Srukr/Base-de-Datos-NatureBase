@@ -1,6 +1,10 @@
 # Base-de-Datos-NatureBase
 Aplicación sencilla para Android que permite conocer las características de ciertas plantas.
+
+
 Los archivos .java son las activitys
+
+
 Los archivos .xml son las configuraciones gráficas de las actividades.
 
 Las imágenes usadas en el proyecto pueden obtenerse en este link:
