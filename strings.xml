@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NatureBase</string>
+    <string name="catalogue">Plant Catalogue</string>
+    <string name="maps">Nursery Maps</string>
+    <string name="about">About</string>
+    <string name="querytester">Query Tester</string>
+
+    <string name="runquery">Run Query</string>
+    <string name="goback">Go Back</string>
+
+    <string name="naturebase">Nature Base</string>
+    <string name="mainnursery">Main Nursery</string>
+    <string name="secondnursery">Second Nursery</string>
+    <string name="farnursery">Far Away Nursery</string>
+
+    <string name="lookforplants">Click here to filter the list!</string>
+
+    <string name="abouttheplants">About the Plants</string>
+    <string name="aboutthemaps">About the maps</string>
+    <string name="abouttheapp">About the app</string>
+</resources>
