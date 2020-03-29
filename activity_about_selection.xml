@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".AboutSelection">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="GoBack"
+        android:text="@string/goback" />
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/fondoet"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/aboutPlants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AboutFunctionality"
+            android:text="@string/abouttheplants" />
+
+        <Button
+            android:id="@+id/aboutMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AboutFunctionality"
+            android:text="@string/aboutthemaps" />
+
+        <Button
+            android:id="@+id/aboutApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AboutFunctionality"
+            android:text="@string/abouttheapp" />
+    </LinearLayout>
+</RelativeLayout>
